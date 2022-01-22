@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Youfit">
         <activity
-            android:name=".Activities.LoginAndStrating.genderselection"
-            android:exported="false" />
-        <activity
             android:name=".Activities.LoginAndStrating.signup"
             android:exported="false" />
         <activity
