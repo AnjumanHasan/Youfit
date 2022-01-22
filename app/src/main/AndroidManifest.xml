@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Youfit">
+        <activity android:name=".Activities.Oxygenprocess"></activity>
+        <activity android:name=".Activities.oxygencalculator" />
         <activity
             android:name=".Activities.LoginAndStarting.signup"
             android:exported="false" />
         <activity
             android:name=".Activities.LoginAndStarting.loginactivity"
             android:exported="false" />
-        <activity android:name=".Activities.MainActivity.MainActivity"
-            android:exported="true"
-            >
+        <activity
+            android:name=".Activities.MainActivity.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
