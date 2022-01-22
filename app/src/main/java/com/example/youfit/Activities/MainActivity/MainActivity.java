@@ -11,7 +11,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.youfit.Activities.Dashboard.dashboard_menu;
 import com.example.youfit.R;
-import com.example.youfit.emergency_portal;
+import com.example.youfit.Activities.emergency_portal;
 import com.example.youfit.Activities.LoginAndStarting.user_profile;
 
 public class MainActivity extends AppCompatActivity {

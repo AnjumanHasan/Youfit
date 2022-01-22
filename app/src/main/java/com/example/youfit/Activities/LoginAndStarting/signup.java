@@ -78,14 +78,14 @@ public class signup extends AppCompatActivity {
                             user.put("email", email);
                             user.put("username", username);
                             user.put("medicaldetails", medicaldetails.getdiseasename());
-//                            user.put("gender",genderselection.getgender());
+                            user.put("gender",genderselection.getgender());
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
                                     Log.d("TAG", "onSuccess: User id is created for " + userid);
                                 }
                             });
-//                            startActivity(new Intent(getApplicationContext(), genderselection.class));
+                            startActivity(new Intent(getApplicationContext(), genderselection.class));
                             finish();
                         } else {
                             Toast.makeText(signup.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
