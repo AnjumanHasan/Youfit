@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Youfit">
         <activity
-            android:name=".Activities.LoginAndStrating.signup"
+            android:name=".Activities.LoginAndStarting.signup"
             android:exported="false" />
         <activity
-            android:name=".Activities.LoginAndStrating.loginactivity"
+            android:name=".Activities.LoginAndStarting.loginactivity"
             android:exported="false" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.MainActivity.MainActivity"
+            android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

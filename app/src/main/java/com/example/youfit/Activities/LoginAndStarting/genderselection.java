@@ -1,4 +1,4 @@
-package com.example.youfit.Activities.LoginAndStrating;
+package com.example.youfit.Activities.LoginAndStarting;
 
 import androidx.appcompat.app.AppCompatActivity;
 
