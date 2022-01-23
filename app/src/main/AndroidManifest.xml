@@ -20,7 +20,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Youfit">
-        <activity android:name=".Activities.ASANA.vrikshaasana"></activity>
+        <activity android:name=".Activities.Water.waternotificationsettings"></activity>
+        <activity android:name=".Activities.Water.waterreminder" />
+        <activity android:name=".Activities.ASANA.vrikshaasana" />
         <activity android:name=".Activities.ASANA.virabhadraasana" />
         <activity android:name=".Activities.ASANA.vajraasana" />
         <activity android:name=".Activities.ASANA.trikonasana" />
