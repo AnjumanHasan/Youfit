@@ -44,7 +44,8 @@
         <activity
             android:name=".Activities.MainActivity.MainActivity"
             android:exported="true" />
-        <activity android:name=".Activities.LoginAndStarting.Startpage">
+        <activity android:name=".Activities.LoginAndStarting.Startpage"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -55,6 +56,12 @@
         <activity android:name=".Activities.LoginAndStarting.genderselection" />
         <activity android:name=".Activities.oxygencalculator" />
         <activity android:name=".Activities.Oxygenprocess" />
+        <activity
+            android:name=".Activities.settingsmeditation"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Meditation"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
