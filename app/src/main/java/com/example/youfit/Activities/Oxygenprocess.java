@@ -69,8 +69,7 @@ public class Oxygenprocess extends AppCompatActivity {
 
             redavglist.add(RedAvg);
             blueavglist.add(BlueAvg);
-//            Log.d("abcdef", " "+RedAvg);
-//            Log.d("abcdefg", " "+BlueAvg);
+
             ++counter;
             if (RedAvg < 200) {
                 inc = 0;

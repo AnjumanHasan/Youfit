@@ -17,8 +17,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:layout_marginRight="328dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -57,8 +56,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.774"
-        android:layout_marginLeft="265dp" />
+        app:layout_constraintVertical_bias="0.774" />
 
     <ImageView
         android:layout_width="200dp"
@@ -69,8 +67,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="1.0"
-        android:layout_marginRight="240dp" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/femalecardView"
@@ -86,6 +83,7 @@
         android:background="@drawable/buttonbg">
 
         <ImageView
+            android:id="@+id/female"
             android:layout_width="85dp"
             android:layout_height="wrap_content"
             android:src="@drawable/bigender_female"
@@ -107,11 +105,25 @@
         app:cardBackgroundColor="#C5D5EA"
         >
         <ImageView
+            android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bigender_male"
             android:layout_gravity="center"
             />
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/genderselected"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg2"
+        android:scrollbarSize="14dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/malecardView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
