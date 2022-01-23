@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Youfit">
-        <activity android:name=".Activities.Oxygenprocess"></activity>
+        <activity
+            android:name=".settingsmeditation"
+            android:exported="false" />
+        <activity
+            android:name=".meditation"
+            android:exported="false" />
+        <activity android:name=".Activities.Oxygenprocess" />
         <activity android:name=".Activities.oxygencalculator" />
         <activity
             android:name=".Activities.LoginAndStarting.signup"

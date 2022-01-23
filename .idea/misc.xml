@@ -4,15 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/drawable/buttonbg2.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/drawable/circle.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/drawable/person.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/drawable/play.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/drawable/settings.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/drawable/stop.xml" value="0.3494791666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/activity_genderselection.xml" value="0.3109375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/activity_loginactivity.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/activity_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/activity_meditation.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/activity_settingsmeditation.xml" value="0.3109375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/activity_signup.xml" value="0.3109375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Youfit/app/src/main/res/layout/loginactivity.xml" value="0.32916666666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
